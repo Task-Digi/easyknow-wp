@@ -1,0 +1,45 @@
+[03-Mar-2026 07:27:04 UTC] WordPress database error Commands out of sync; you can't run this command now for query SELECT option_name, option_value FROM wp_options WHERE option_name IN ('_transient_et_builder_ajax_cache','_transient_timeout_et_builder_ajax_cache') made by shutdown_action_hook, do_action('shutdown'), WP_Hook->do_action, WP_Hook->apply_filters, ET_Builder_Ajax_Cache->save, ET_Builder_Ajax_Cache->load, get_transient, wp_prime_option_caches
+[03-Mar-2026 07:27:04 UTC] WordPress database error Commands out of sync; you can't run this command now for query SELECT option_name, option_value FROM wp_options WHERE option_name IN ('_transient_doing_cron','_transient_timeout_doing_cron') made by shutdown_action_hook, do_action('shutdown'), WP_Hook->do_action, WP_Hook->apply_filters, _wp_cron, spawn_cron, get_transient, wp_prime_option_caches
+[03-Mar-2026 07:27:04 UTC] WordPress database error Commands out of sync; you can't run this command now for query INSERT INTO `wp_options` (`option_name`, `option_value`, `autoload`) VALUES ('_transient_doing_cron', '1772522824.4306449890136718750000', 'on') ON DUPLICATE KEY UPDATE `option_name` = VALUES(`option_name`), `option_value` = VALUES(`option_value`), `autoload` = VALUES(`autoload`) made by shutdown_action_hook, do_action('shutdown'), WP_Hook->do_action, WP_Hook->apply_filters, _wp_cron, spawn_cron, set_transient, add_option
+[03-Mar-2026 13:29:49 UTC] WordPress database error Commands out of sync; you can't run this command now for query SELECT option_name, option_value FROM wp_options WHERE option_name IN ('_transient_et_builder_ajax_cache','_transient_timeout_et_builder_ajax_cache') made by shutdown_action_hook, do_action('shutdown'), WP_Hook->do_action, WP_Hook->apply_filters, ET_Builder_Ajax_Cache->save, ET_Builder_Ajax_Cache->load, get_transient, wp_prime_option_caches
+[11-Mar-2026 13:33:47 UTC] WordPress database error Commands out of sync; you can't run this command now for query SELECT option_name, option_value FROM wp_options WHERE option_name IN ('_transient_et_builder_ajax_cache','_transient_timeout_et_builder_ajax_cache') made by shutdown_action_hook, do_action('shutdown'), WP_Hook->do_action, WP_Hook->apply_filters, ET_Builder_Ajax_Cache->save, ET_Builder_Ajax_Cache->load, get_transient, wp_prime_option_caches
+[11-Mar-2026 13:33:47 UTC] WordPress database error Commands out of sync; you can't run this command now for query SELECT option_name, option_value FROM wp_options WHERE option_name IN ('_transient_doing_cron','_transient_timeout_doing_cron') made by shutdown_action_hook, do_action('shutdown'), WP_Hook->do_action, WP_Hook->apply_filters, _wp_cron, spawn_cron, get_transient, wp_prime_option_caches
+[11-Mar-2026 13:33:47 UTC] WordPress database error Commands out of sync; you can't run this command now for query INSERT INTO `wp_options` (`option_name`, `option_value`, `autoload`) VALUES ('_transient_doing_cron', '1773236027.2149150371551513671875', 'on') ON DUPLICATE KEY UPDATE `option_name` = VALUES(`option_name`), `option_value` = VALUES(`option_value`), `autoload` = VALUES(`autoload`) made by shutdown_action_hook, do_action('shutdown'), WP_Hook->do_action, WP_Hook->apply_filters, _wp_cron, spawn_cron, set_transient, add_option
+[13-Mar-2026 15:50:45 UTC] WordPress database error Commands out of sync; you can't run this command now for query SELECT option_name, option_value FROM wp_options WHERE option_name IN ('_transient_doing_cron','_transient_timeout_doing_cron') made by shutdown_action_hook, do_action('shutdown'), WP_Hook->do_action, WP_Hook->apply_filters, _wp_cron, spawn_cron, get_transient, wp_prime_option_caches
+[13-Mar-2026 15:50:45 UTC] WordPress database error Commands out of sync; you can't run this command now for query INSERT INTO `wp_options` (`option_name`, `option_value`, `autoload`) VALUES ('_transient_doing_cron', '1773417045.9202239513397216796875', 'on') ON DUPLICATE KEY UPDATE `option_name` = VALUES(`option_name`), `option_value` = VALUES(`option_value`), `autoload` = VALUES(`autoload`) made by shutdown_action_hook, do_action('shutdown'), WP_Hook->do_action, WP_Hook->apply_filters, _wp_cron, spawn_cron, set_transient, add_option
+[20-Mar-2026 05:25:12 UTC] PHP Fatal error:  Uncaught RuntimeException: SplFileInfo::getSize(): stat failed for /home/easyknow/.cagefs/opt/alt/php44/link/conf in /home/easyknow/public_html/index.php:9
+Stack trace:
+#0 /home/easyknow/public_html/index.php(9): SplFileInfo->getSize()
+#1 /home/easyknow/public_html/index.php(57): getFolderSize()
+#2 {main}
+  thrown in /home/easyknow/public_html/index.php on line 9
+[20-Mar-2026 05:25:17 UTC] PHP Fatal error:  Uncaught RuntimeException: SplFileInfo::getSize(): stat failed for /home/easyknow/.cagefs/opt/alt/php44/link/conf in /home/easyknow/public_html/index.php:9
+Stack trace:
+#0 /home/easyknow/public_html/index.php(9): SplFileInfo->getSize()
+#1 /home/easyknow/public_html/index.php(57): getFolderSize()
+#2 {main}
+  thrown in /home/easyknow/public_html/index.php on line 9
+[20-Mar-2026 05:36:50 UTC] PHP Fatal error:  Uncaught RuntimeException: SplFileInfo::getSize(): stat failed for /home/easyknow/.cpanel/ea-php-cli/.ea-php-cli.cache in /home/easyknow/public_html/index.php:33
+Stack trace:
+#0 /home/easyknow/public_html/index.php(33): SplFileInfo->getSize()
+#1 /home/easyknow/public_html/index.php(41): getTotalSize()
+#2 {main}
+  thrown in /home/easyknow/public_html/index.php on line 33
+[20-Mar-2026 05:37:00 UTC] PHP Fatal error:  Uncaught RuntimeException: SplFileInfo::getSize(): stat failed for /home/easyknow/.cpanel/ea-php-cli/.ea-php-cli.cache in /home/easyknow/public_html/index.php:33
+Stack trace:
+#0 /home/easyknow/public_html/index.php(33): SplFileInfo->getSize()
+#1 /home/easyknow/public_html/index.php(41): getTotalSize()
+#2 {main}
+  thrown in /home/easyknow/public_html/index.php on line 33
+[20-Mar-2026 05:37:23 UTC] PHP Fatal error:  Uncaught RuntimeException: SplFileInfo::getSize(): stat failed for /home/easyknow/.cpanel/ea-php-cli/.ea-php-cli.cache in /home/easyknow/public_html/index.php:33
+Stack trace:
+#0 /home/easyknow/public_html/index.php(33): SplFileInfo->getSize()
+#1 /home/easyknow/public_html/index.php(41): getTotalSize()
+#2 {main}
+  thrown in /home/easyknow/public_html/index.php on line 33
+[22-Mar-2026 08:16:17 UTC] PHP Fatal error:  Uncaught RuntimeException: SplFileInfo::getSize(): stat failed for /home/easyknow/.cagefs/opt/alt/php44/link/conf in /home/easyknow/public_html/scan_size.php:9
+Stack trace:
+#0 /home/easyknow/public_html/scan_size.php(9): SplFileInfo->getSize()
+#1 /home/easyknow/public_html/scan_size.php(57): getFolderSize()
+#2 {main}
+  thrown in /home/easyknow/public_html/scan_size.php on line 9
