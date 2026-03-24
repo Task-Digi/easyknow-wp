@@ -1,0 +1,9 @@
+# WordPress .gitignore
+wp-config.php
+wp-content/uploads/
+wp-content/cache/
+wp-content/et-cache/
+.htaccess
+node_modules/
+.DS_Store
+*.log
